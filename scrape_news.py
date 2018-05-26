@@ -2,7 +2,6 @@ import newspaper
 from newspaper import Article
 import pickle
 import datetime
-#https://holwech.github.io/blog/Automatic-news-scraper/
 
 def scrape_local_news(news_sources):
 	all_articles=dict()
